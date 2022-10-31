@@ -77,18 +77,6 @@ layout = html.Div([
                     """, style={'textAlign':'justify', 'padding':'0px 0px 0px 20px'}),
 
 
-                    html.Ul([
-                        html.Li([
-                            "I use scraping to generate databases. Libraries:",
-                            html.Ul([
-                                html.Li("Selenium: web scraping."),
-                                html.Li("Fitz: pdf scraping."),
-                                html.Li("Snscrape: social networks scraping (twitter)."),
-                            ]),
-
-                        ]),
-                        html.Li("NLP"),
-                    ]),
                 ]
             )
         ]
