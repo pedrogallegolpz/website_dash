@@ -106,27 +106,6 @@ layout = html.Div([
         ]
     ),
 
-    dbc.Row(
-        [
-            dbc.Col([dcc.Markdown("09/2016 ➝ 06/2022",
-                     style={'textAlign':'center', 'color': 'rgba(255,255,255)'})],
-                     width=2),
-
-            dbc.Col([html.H5("Dual bachelor degree in Mathematics and Computer Science.",
-                     style={'color': 'rgba(255,255,255)'}),
-                    dcc.Markdown("University of Granada (UGR)."),
-                    html.Ul([
-                        html.Li("Artificial Intelligence specialty certificate", 
-                                style={'color': 'rgba(255,255,255)'}),
-                        html.Ul([
-                            html.Li([html.Strong("Machine Learning and Metaheuristics Honor Student.")])
-                        ]),
-                    ])
-                ]),
-        ]
-    ),
-
-
 
     dbc.Row(
         [        
